@@ -1,0 +1,137 @@
+*{
+    margin: 0; padding: 0;
+    font-family: "Poppins";
+}
+nav{
+    width: 100vw;
+    height: max-content;
+    background-color: rgb(245, 244, 244);
+    height: 12vh;
+    box-shadow: 0px 2px 5px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.material-symbols-outlined{
+    fill: rgb(160, 83, 232);
+}
+.logo{
+    width: 19vw;
+    height: auto;
+    margin-left: 60px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+ul{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    align-items: center;
+    height: 12vh;
+}
+ul li{
+    margin: 20px;
+    list-style-type: none;
+    scale: 1.1;
+
+}
+.container{
+    width: 70vw;
+    margin: 15px auto;
+    height: max-content;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head button{
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    font-size: 0.8rem;
+    color: white;
+    background-color:rgb(41, 41, 255);
+    border: none;
+
+}
+.head span{
+    height: max-content;
+    color:rgb(41, 41, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.grey-box{
+    width: 100%;
+    margin: 55px 0px;
+    height: max-content;
+    padding: 25px 13px;
+    background-color: rgb(223, 220, 220);
+}
+.grey-box h2{
+    font-size: 1.2rem;
+}
+.grey-box p{
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+.asset-cont{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.asset{
+    width: 42%;
+    height: 63vh;
+    border-radius: 20px;
+    border: 2px solid grey;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.asset .heading{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.0rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-align: center;
+    height: 45px;
+}
+.insideheading{
+    width: 88%;
+}
+.iLogo{
+    color: white;
+    fill: white;
+    
+}
+.asset .desc{
+    margin: 20px auto;
+    width:90%;
+    height: max-content;
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.asset-content{
+    width: 100%;
+    height: auto;
+    margin-top: 29px;
+}
+.asset-img{
+    width: 100%;
+    height: auto;
+}
+
